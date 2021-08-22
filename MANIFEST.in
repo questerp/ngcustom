@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ngcustom *.css
+recursive-include ngcustom *.csv
+recursive-include ngcustom *.html
+recursive-include ngcustom *.ico
+recursive-include ngcustom *.js
+recursive-include ngcustom *.json
+recursive-include ngcustom *.md
+recursive-include ngcustom *.png
+recursive-include ngcustom *.py
+recursive-include ngcustom *.svg
+recursive-include ngcustom *.txt
+recursive-exclude ngcustom *.pyc
