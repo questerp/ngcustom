@@ -182,3 +182,11 @@ website_context = {
     "favicon":  "/assets/ngcustom/images/favicon.png",
     "splash_image": "/assets/ngcustom/images/ngaa-logo.png"
 }
+
+# Fixtures Custom Fields
+fixtures = [
+       {
+         "dt": "Custom Field",
+         "filters":[["name", "in", ['Customer-account_number']]]
+	 }
+]
