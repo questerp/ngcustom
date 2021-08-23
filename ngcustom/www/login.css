@@ -1,0 +1,51 @@
+body {
+    background-color: #f7fafc; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-light {
+    background: #002551 !important;
+}
+
+.for-email-login .page-card, .for-forgot .page-card, .for-login .page-card, .for-signup .page-card {
+    box-shadow: 0 15px 35px 0 rgb(60 66 87 / 8%), 0 5px 15px 0 rgb(0 0 0 / 12%);
+    /* box-shadow: none !important; */
+    max-width: 540px;
+    padding: 52px 46px 68px !important;
+    border-radius: 4px !important;
+}
+
+.for-email-login .page-card-head img, .for-forgot .page-card-head img, .for-login .page-card-head img, .for-signup .page-card-head img {
+    max-height: 62px;
+    margin-bottom: 20px !important;
+}
+
+.for-email-login .page-card-head h4, .for-forgot .page-card-head h4, .for-login .page-card-head h4, .for-signup .page-card-head h4 {
+    font-size: 24px !important;
+}
+
+.for-email-login .page-card form, .for-forgot .page-card form, .for-login .page-card form, .for-signup .page-card form {
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+.for-email-login .page-card .page-card-body .email-field input, .for-email-login .page-card .page-card-body .password-field input, .for-forgot .page-card .page-card-body .email-field input, .for-forgot .page-card .page-card-body .password-field input, .for-login .page-card .page-card-body .email-field input, .for-login .page-card .page-card-body .password-field input, .for-signup .page-card .page-card-body .email-field input, .for-signup .page-card .page-card-body .password-field input {
+    padding-left: 10px !important; 
+}
+
+.for-email-login .page-card .page-card-body input[type=email], .for-email-login .page-card .page-card-body input[type=password], .for-email-login .page-card .page-card-body input[type=text], .for-forgot .page-card .page-card-body input[type=email], .for-forgot .page-card .page-card-body input[type=password], .for-forgot .page-card .page-card-body input[type=text], .for-login .page-card .page-card-body input[type=email], .for-login .page-card .page-card-body input[type=password], .for-login .page-card .page-card-body input[type=text], .for-signup .page-card .page-card-body input[type=email], .for-signup .page-card .page-card-body input[type=password], .for-signup .page-card .page-card-body input[type=text] {
+    border: 1px solid #dfe0e4 !important;
+    color: var(--text-color);
+    font-size: var(--text-base);
+    background-color: white !important;
+    margin-bottom: 1rem;
+    line-height: 28px;
+    min-height: 44px;
+}
+
+.for-email-login .page-card .page-card-body .email-field .toggle-password, .for-email-login .page-card .page-card-body .password-field .toggle-password, .for-forgot .page-card .page-card-body .email-field .toggle-password, .for-forgot .page-card .page-card-body .password-field .toggle-password, .for-login .page-card .page-card-body .email-field .toggle-password, .for-login .page-card .page-card-body .password-field .toggle-password, .for-signup .page-card .page-card-body .email-field .toggle-password, .for-signup .page-card .page-card-body .password-field .toggle-password {
+    right: 9px;
+    top: 11px;
+}

@@ -13,11 +13,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/ngcustom/css/ngcustom.css"
+app_include_css = "/assets/ngcustom/css/ngcustom.css"
 # app_include_js = "/assets/ngcustom/js/ngcustom.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/ngcustom/css/ngcustom.css"
+web_include_css = "/assets/ngcustom/css/ngcustom-web.css"
 # web_include_js = "/assets/ngcustom/js/ngcustom.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -173,3 +173,12 @@ user_data_fields = [
 # 	"ngcustom.auth.validate"
 # ]
 
+# Custom Favicon and Logo Settings
+# ------------------------------------
+
+app_logo_url = "/assets/ngcustom/images/ngaa-logo.png"
+email_brand_image = "/assets/ngcustom/images/favicon.png"
+website_context = {
+    "favicon":  "/assets/ngcustom/images/favicon.png",
+    "splash_image": "/assets/ngcustom/images/ngaa-logo.png"
+}

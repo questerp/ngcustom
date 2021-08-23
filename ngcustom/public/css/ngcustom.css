@@ -1,0 +1,231 @@
+:root {
+    --gray-50: #f1f4fb;
+    --border-color: #e9ebfa;
+    --text-color: #263871;
+    --heading-color: #263871;
+    --text-muted: #9ba5ca;
+    --text-light: #415088;
+    --table-border-color: #e2e4f0; 
+}
+
+* {
+    font-size: 14px !important;
+    border-radius: 0px !important;
+}
+
+body, button, html {
+    color: #263871;
+}
+
+.navbar {
+    box-shadow: none; 
+    border-bottom: 1px solid var(--border-color);
+}
+
+.navbar .navbar-brand {
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-home img {
+    max-height: 38px;
+    width: 38px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(255 255 255 / 80%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255 / 80%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page-head {
+    background: transparent;
+}
+
+/*** Left Icons ***/
+
+.desk-sidebar .standard-sidebar-section:first-of-type {
+    margin-top: 0 !important;
+}
+
+.desk-sidebar .standard-sidebar-section .standard-sidebar-label, .search-dialog .search-results .search-sidebar .standard-sidebar-section .standard-sidebar-label, .standard-sidebar .standard-sidebar-section .standard-sidebar-label {
+    margin-bottom: var(--margin-md);
+    padding-top: var(--padding-lg);
+    margin-left: var(--margin-md);
+    margin-top: 0px;
+}
+
+.widget-group.widget-charts {
+    margin-top: 0 !important;
+}
+
+.list-sidebar {
+    background: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(196,205,224,.2);
+}
+
+.desk-sidebar .standard-sidebar-label {
+    font-size: var(--text-md) !important;
+    color: #6d7175;
+}
+
+.layout-side-section {
+    font-size: var(--text-md) !important;
+    padding-right: 0px;
+}
+
+.icon-base, .icon-md {
+    width: 26px;
+    height: 26px;
+}
+
+.desk-sidebar .standard-sidebar-item, .search-dialog .search-results .search-sidebar .standard-sidebar-item, .standard-sidebar .standard-sidebar-item {
+    color: #424e79;
+    font-weight: 700;
+    border-left: 5px solid transparent;
+    border-radius: 0;
+    padding: 7px 12px;
+}
+.desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover, .standard-sidebar .standard-sidebar-item:hover {
+    background-color: var(--sidebar-select-color);
+    text-decoration: none;
+    border-left: 5px solid #36f;
+    color: #36f;
+}
+
+.desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected, .standard-sidebar .standard-sidebar-item.selected {
+    background-color: var(--sidebar-select-color);
+    border-left: 5px solid #36f;
+    color: #36f;
+}
+
+[data-page-route="Workspaces"] .layout-main .layout-main-section-wrapper, [data-page-route="Workspaces"] .layout-main .layout-side-section {
+    overflow-y: inherit;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.widget-group .widget-group-head .widget-group-title {
+    color: var(--heading-color);
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 20px !important;
+}
+
+.widget {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(196,205,224,.2);
+    border-radius: 0px;
+}
+
+.widget.widget-shadow:hover {
+    box-shadow: 0 .25rem 1.95rem 0 rgba(196,205,224,.3);
+}
+
+.widget .widget-head .widget-title {
+    font-weight: bold;
+    line-height: 1.5em;
+    color: var(--heading-color);
+}
+
+.widget-group-head .widget-group-title {
+    position: relative;
+    padding-left: 18px;
+}
+
+.widget-group-head .widget-group-title::before {
+    background: #36f;
+    content: "";
+    height: 30px;
+    left: 0;
+    padding: 2px;
+    position: absolute;
+}
+
+h3.ellipsis.title-text {
+    font-size: 20px !important;
+}
+
+.desk-sidebar .standard-sidebar-section {
+    margin-top: 0;
+}
+
+.layout-main-section.form-dashboard-section, .layout-main-section.form-section.card-section, .layout-main-section.frappe-card {
+    overflow: hidden;
+    border-radius: 0px;
+    padding: 0 0 20px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(196 205 224 / 20%);
+    /* border: 1px solid #e9ebfa; */
+}
+
+.page-head.drop-shadow {
+    border-bottom: 1px solid #e9ebfa;
+    box-shadow: 2px 3px 4.7px 0.3px rgb(176 184 214 / 20%);
+}
+
+.list-sidebar, .form-sidebar {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.form-dashboard-section, .form-section.card-section, .frappe-card {
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(196 205 224 / 20%);
+    padding: var(--padding-sm);
+    background-color: var(--card-bg);
+}
+
+.comment-box {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(196 205 224 / 20%);
+}
+
+.avatar-frame {
+    border-radius: 50% !important;
+}
+
+[data-route="Workspaces/Home"] .list-sidebar,
+[data-route="Workspaces/Accounting"] .list-sidebar,
+[data-route="Workspaces/Assets"] .list-sidebar,
+[data-route="Workspaces/Build"] .list-sidebar,
+[data-route="Workspaces/Buying"] .list-sidebar,
+[data-route="Workspaces/CRM"] .list-sidebar,
+[data-route="Workspaces/Facility"] .list-sidebar,
+[data-route="Workspaces/HR"] .list-sidebar,
+[data-route="Workspaces/Loans"] .list-sidebar,
+[data-route="Workspaces/Payroll"] .list-sidebar,
+[data-route="Workspaces/Projects"] .list-sidebar,
+[data-route="Workspaces/Quality"] .list-sidebar,
+[data-route="Workspaces/Selling"] .list-sidebar,
+[data-route="Workspaces/Stock"] .list-sidebar,
+[data-route="Workspaces/Support"] .list-sidebar,
+[data-route="Workspaces/Website"] .list-sidebar,
+[data-route="Workspaces/Settings"] .list-sidebar,
+[data-route="Workspaces/Utilities"] .list-sidebar,
+[data-route="Workspaces/Manufacturing"] .list-sidebar,
+[data-route="Workspaces/Retail"] .list-sidebar,
+[data-route="Workspaces/Hospitality"] .list-sidebar,
+[data-route="Workspaces/Education"] .list-sidebar,
+[data-route="Workspaces/Customization"] .list-sidebar,
+[data-route="Workspaces/Integrations"] .list-sidebar,
+[data-route="Workspaces/Tools"] .list-sidebar,
+[data-route="Workspaces/Users"] .list-sidebar {
+    padding: 0px;
+}
